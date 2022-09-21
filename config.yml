@@ -1,0 +1,37 @@
+baseURL: ""
+languageCode: en-us
+title: :hocho:porterville
+theme: PaperMod
+enableEmoji: true
+
+params:
+  env: production
+  homeInfoParams:
+    Title: Porterville, IN
+    Content: Uncovering and reporting the dark corners of my town.
+  socialIcons:
+    - name: kofi
+      url: "https://kofi.com"
+    - name: twitter
+      url: "https://twitter.com"
+  
+  ShowBreadCrumbs: true
+
+  ShowReadingTime: true
+
+  ShowShareButtons: true
+
+  ShareButtons: ["reddit", "twitter"]
+
+  ShowPostNavLinks: true
+
+menu:
+  main:
+  - identifier: about
+    name: about
+    url: /about/
+    weight: 10
+  - name: twitter
+    url: "https://twitter.com/runcryrun"
+    weight: 20
+
